@@ -30,4 +30,92 @@ p.more {
   display: none;
 }
 
-/* Your code here */
+* {
+  font-style: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.page-container {
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+#leftbar {
+  float: left;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#center {
+  float: left;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: solid 2.5px #464646;
+  border-radius: 10px;
+}
+
+#rightbar {
+  float: left;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+.clfooter {
+  text-align: center;
+  border-top: solid 1px gray;
+  padding: 10px 0 10px 0;
+}
+
+.clfooter > li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.ban::before {
+  content: "\262E";
+  color: purple;
+  padding-right: 4px;
+}
